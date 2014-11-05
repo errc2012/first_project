@@ -1,0 +1,95 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("../images/fondo.png");
+}
+
+#logo-container {
+  margin: 0 auto;
+  padding-top: 3em;
+  width: 380px;
+}
+
+#logo-container #logo {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.stripe {
+  width: 95px;
+  height: 4.2em;
+  /*height: 20em;*/
+  position: relative;
+  z-index: -1;
+  display: inline-block;
+}
+
+.blue-stripe {
+  background-color: #00ADEF;
+  bottom: 6em;
+}
+
+.red-stripe {
+  background-color: #ED1C24;
+  left: 11.5%;
+  bottom: 3.1em;
+}
+
+.yellow-stripe {
+  background-color: #F7CE14;
+  left: 22.8%;
+  bottom: 6em;
+}
+
+.link-icon {
+  width: 117px;
+  height: 117px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.bio-icon {
+  background-image: url("../images/icono_bio.png");
+  bottom: 10.5em;
+  right: 12px;
+}
+
+.porfolio-icon {
+  background-image: url("../images/icono_porfolio.png");
+  bottom: 7.5em;
+  left: 11px;
+}
+
+.contact-icon {
+  background-image: url("../images/icono_contacto.png");
+  bottom: 10.5em;
+  left: 34px;
+}
+
+.content {
+  padding-top: 8.75em;
+  opacity: 0;
+  margin: 0 auto;
+  display: none;
+}
+
+#porfolio-container {
+  
+}
+
+#porfolio-container div {
+  text-align: center;
+}
+
+#porfolio-container img {
+  height: 100px;
+  margin: 1.24em 0;
+}
+
+#porfolio-container div:nth-of-type(1) img {
+  height: 94px;
+  margin: 0;
+}

@@ -1,0 +1,215 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("../images/fondo.png");
+}
+
+.home-btn {
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  width: 31px;
+}
+
+#logo-container {
+  margin-left: 12%;
+  float: left;
+  padding-top: 3em;
+  width: 380px;
+}
+
+#logo-container #logo {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.stripe {
+  width: 95px;
+  height: 20em;
+  /*height: 20em;*/
+  position: relative;
+  z-index: -1;
+  display: inline-block;
+}
+
+.blue-stripe {
+  background-color: #00ADEF;
+  bottom: 6em;
+}
+
+.red-stripe {
+  background-color: #ED1C24;
+  left: 11.5%;
+  bottom: 3.1em;
+}
+
+.yellow-stripe {
+  background-color: #F7CE14;
+  left: 22.8%;
+  bottom: 6em;
+}
+
+.link-icon {
+  width: 117px;
+  height: 117px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.bio-icon {
+  background-image: url("../images/icono_bio.png");
+  bottom: 10.5em;
+  right: 12px;
+}
+
+.porfolio-icon {
+  background-image: url("../images/icono_porfolio.png");
+  bottom: 7.5em;
+  left: 11px;
+}
+
+.contact-icon {
+  background-image: url("../images/icono_contacto.png");
+  bottom: 10.5em;
+  left: 34px;
+}
+
+.content {
+  padding-top: 8.75em;
+  margin: 0 auto;
+}
+
+.main-container {
+ opacity: 1;
+ display: table;
+
+}
+
+.main-container div {
+  text-align: center;
+  
+}
+
+#porfolio-container img.nav-img {
+  height: 100px;
+  margin: 1.24em 0;
+}
+
+#porfolio-container div:nth-of-type(1) img.nav-img {
+  height: 94px;
+  margin: 0;
+}
+
+#biografia-container div:nth-of-type(2) img {
+  width: 30%;
+  border-radius: 10em;
+  margin-top: 3em;
+}
+
+#biografia-container .third-container {
+  margin-top: 25px;
+}
+
+#contact-container div:nth-of-type(2) img {
+  margin-top: 5em;
+}
+
+.porfolio-image-collection-fotografia { margin-top: 3.9em; }
+
+.porfolio-image-collection-fotografia div {
+  display: inline-block;
+  width: 5em;
+  height: 17em;
+  margin: 0 2px;
+}
+
+.porfolio-image-collection-fotografia .img-1 { 
+  background-image: url("../images/fotografia/depasada.png"); 
+  background-repeat: no-repeat;
+  background-size: 1024px 768px;
+  background-position: 13% 48%;
+}
+.porfolio-image-collection-fotografia .img-2 { 
+  background-image: url("../images/fotografia/dientes.png"); 
+}
+.porfolio-image-collection-fotografia .img-3 { 
+  background-image: url("../images/fotografia/distorsion.png"); 
+}
+.porfolio-image-collection-fotografia .img-4 { 
+  background-image: url("../images/fotografia/grito.png"); 
+}
+.porfolio-image-collection-fotografia .img-5 { 
+  background-image: url("../images/fotografia/jauria.png"); 
+}
+.porfolio-image-collection-fotografia .img-6 { 
+  background-image: url("../images/fotografia/paralisis.png"); 
+}
+
+
+
+.porfolio-image-collection-pintura { margin-top: 3.9em; }
+
+.porfolio-image-collection-pintura div {
+  display: inline-block;
+  width: 5em;
+  height: 17em;
+  margin: 0 2px;
+}
+
+.porfolio-image-collection-pintura .img-1 { 
+  background-image: url("../images/pintura/trapecio.jpg"); 
+  background-repeat: no-repeat;
+  background-size: 1024px 768px;
+  background-position: 13% 48%;
+}
+.porfolio-image-collection-pintura .img-2 { 
+  background-image: url("../images/pintura/pecados.jpg"); 
+}
+.porfolio-image-collection-pintura .img-3 { 
+  background-image: url("../images/pintura/hueso.jpg"); 
+}
+.porfolio-image-collection-pintura .img-4 { 
+  background-image: url("../images/pintura/sws.jpg"); 
+}
+.porfolio-image-collection-pintura .img-5 { 
+  background-image: url("../images/pintura/postes.jpg"); 
+}
+.porfolio-image-collection-pintura .img-6 { 
+  background-image: url("../images/pintura/retrato.jpg"); 
+}
+
+
+
+.porfolio-image-collection-diseno { margin-top: 3.9em; }
+
+.porfolio-image-collection-diseno div {
+  display: inline-block;
+  width: 5em;
+  height: 17em;
+  margin: 0 2px;
+}
+
+.porfolio-image-collection-diseno .img-1 { 
+  background-image: url("../images/diseno/adastra.png"); 
+  background-repeat: no-repeat;
+  background-size: 1024px 768px;
+  background-position: 13% 48%;
+}
+.porfolio-image-collection-diseno  .img-2 { 
+  background-image: url("../images/diseno/versos.png"); 
+}
+.porfolio-image-collection-diseno  .img-3 { 
+  background-image: url("../images/diseno/circulos_viciosos.png"); 
+}
+.porfolio-image-collection-diseno  .img-4 { 
+  background-image: url("../images/diseno/principito.png"); 
+}
+.porfolio-image-collection-diseno  .img-5 { 
+  background-image: url("../images/diseno/micreation.png"); 
+}
+.porfolio-image-collection-diseno  .img-6 { 
+  background-image: url("../images/diseno/arte_callejero.png"); 
+}
