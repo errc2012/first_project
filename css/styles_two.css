@@ -13,6 +13,13 @@ body {
   width: 31px;
 }
 
+.back-btn {
+ position: absolute;
+  top: 10px;
+  left: 14px;
+  width: 31px;
+}
+
 #logo-container {
   margin-left: 12%;
   float: left;
@@ -129,23 +136,38 @@ body {
 .porfolio-image-collection-fotografia .img-1 { 
   background-image: url("../images/fotografia/depasada.png"); 
   background-repeat: no-repeat;
-  background-size: 1024px 768px;
+  background-size: 300px;
   background-position: 13% 48%;
 }
 .porfolio-image-collection-fotografia .img-2 { 
   background-image: url("../images/fotografia/dientes.png"); 
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: 13% 48%;
 }
 .porfolio-image-collection-fotografia .img-3 { 
   background-image: url("../images/fotografia/distorsion.png"); 
+  background-repeat: no-repeat;
+  background-size: 600px 300px;
+  background-position: 13% 48%;
 }
 .porfolio-image-collection-fotografia .img-4 { 
   background-image: url("../images/fotografia/grito.png"); 
+  background-repeat: no-repeat;
+  background-size: 600px 300px;
+  background-position: 13% 48%;
 }
 .porfolio-image-collection-fotografia .img-5 { 
-  background-image: url("../images/fotografia/jauria.png"); 
+  background-image: url("../images/fotografia/jauria.png");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: 13% 48%; 
 }
 .porfolio-image-collection-fotografia .img-6 { 
   background-image: url("../images/fotografia/paralisis.png"); 
+  background-repeat: no-repeat;
+  background-size: 600px 300px;
+  background-position: 13% 48%;
 }
 
 
@@ -162,23 +184,38 @@ body {
 .porfolio-image-collection-pintura .img-1 { 
   background-image: url("../images/pintura/trapecio.jpg"); 
   background-repeat: no-repeat;
-  background-size: 1024px 768px;
+  background-size: 300px;
   background-position: 13% 48%;
 }
 .porfolio-image-collection-pintura .img-2 { 
   background-image: url("../images/pintura/pecados.jpg"); 
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: 13% 48%;
 }
 .porfolio-image-collection-pintura .img-3 { 
   background-image: url("../images/pintura/hueso.jpg"); 
+  background-repeat: no-repeat;
+  background-size: 600px 300px;
+  background-position: 13% 48%;
 }
 .porfolio-image-collection-pintura .img-4 { 
   background-image: url("../images/pintura/sws.jpg"); 
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: 13% 48%;
 }
 .porfolio-image-collection-pintura .img-5 { 
   background-image: url("../images/pintura/postes.jpg"); 
+  background-repeat: no-repeat;
+  background-size: 600px 300px;
+  background-position: 13% 48%;
 }
 .porfolio-image-collection-pintura .img-6 { 
   background-image: url("../images/pintura/retrato.jpg"); 
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: 13% 48%;
 }
 
 
@@ -195,21 +232,36 @@ body {
 .porfolio-image-collection-diseno .img-1 { 
   background-image: url("../images/diseno/adastra.png"); 
   background-repeat: no-repeat;
-  background-size: 1024px 768px;
+  background-size: 300px;
   background-position: 13% 48%;
 }
 .porfolio-image-collection-diseno  .img-2 { 
-  background-image: url("../images/diseno/versos.png"); 
+  background-image: url("../images/diseno/versos.png");
+   background-repeat: no-repeat;
+  background-size: 600px 300px;
+  background-position: 13% 48%; 
 }
 .porfolio-image-collection-diseno  .img-3 { 
   background-image: url("../images/diseno/circulos_viciosos.png"); 
+   background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: 13% 48%;
 }
 .porfolio-image-collection-diseno  .img-4 { 
   background-image: url("../images/diseno/principito.png"); 
+   background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: 13% 48%;
 }
 .porfolio-image-collection-diseno  .img-5 { 
   background-image: url("../images/diseno/micreation.png"); 
+   background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: 13% 48%;
 }
 .porfolio-image-collection-diseno  .img-6 { 
-  background-image: url("../images/diseno/arte_callejero.png"); 
+  background-image: url("../images/diseno/arte_callejero.png");
+   background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: 13% 48%; 
 }
